@@ -49,7 +49,20 @@ At the Blitz City Pet Expo, organizers need a tiny program that can announce ani
 mvn clean compile
 ```
 
-### Run the Demo
+### Running the Application
+
+You can run the application in two ways:
+
+**Option 1: Using IntelliJ IDEA** (Recommended for beginners)
+
+1. Open the project in IntelliJ IDEA
+2. Navigate to the `Demo.java` file (`src/main/java/nl/blitz/oop/animal/Demo.java`)
+3. Right-click on the file or the `main` method
+4. Select "Run 'Demo.main()'" from the context menu
+5. Alternatively, click the green play button (▶) next to the `main` method
+
+**Option 2: Using Maven Command Line**
+
 ```bash
 mvn exec:java -Dexec.mainClass="nl.blitz.oop.animal.Demo"
 ```
