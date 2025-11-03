@@ -2,7 +2,11 @@
 
 ## Story
 
-At the Blitz City Pet Expo, organizers need a tiny program that can announce animal sounds for any lineup without rewriting code for each species. They only know that "every animal can make a sound" and each species does it differently. Your job is to build a small hierarchy where a shared base type represents "an animal," and specific animals override how they sound. The announcer (our Demo) must work with a list of animals and print each sound without type checks.
+At the Blitz City Pet Expo, organizers need a tiny program that can announce animal sounds for any lineup without 
+rewriting code for each species. They only know that "every animal can make a sound" and each species does it 
+differently. Your job is to build a small hierarchy where a shared base type represents "an animal," and specific 
+animals override how they sound. The announcer (our Demo) must work with a list of animals and print each sound 
+without type checks.
 
 ## Requirements
 
