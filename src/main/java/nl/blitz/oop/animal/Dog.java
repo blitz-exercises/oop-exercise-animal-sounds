@@ -10,7 +10,8 @@ public class Dog extends Animal {
 
     @Override
     public String makeSound() {
-        throw new UnsupportedOperationException("TODO: implement Dog.makeSound()");
+        // throw new UnsupportedOperationException("TODO: implement Dog.makeSound()");
+        return "woof";
     }
 }
 
