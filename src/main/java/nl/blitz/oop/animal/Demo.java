@@ -19,7 +19,7 @@ public class Demo {
         animals.add(new Cow("Big dawg"));
 
         for (Animal animal : animals) {
-            System.out.println(animal.makeSound());
+            System.out.println(animal.getName() + ": " + animal.makeSound());
         }
     }
 }
