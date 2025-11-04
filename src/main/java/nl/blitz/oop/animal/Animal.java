@@ -17,12 +17,16 @@ public abstract class Animal {
      * - Assign to field if valid
      */
     protected Animal(String name) {
-        throw new UnsupportedOperationException("TODO: implement Animal(String) validation and assignment");
+        if(name == null || name.isBlank()){
+            throw new IllegalArgumentException("The animal name cannot be empty.");
+        }
+
+        this.name = name;
     }
 
     // TODO: return the animal's name
     public String getName() {
-        throw new UnsupportedOperationException("TODO: implement getName()");
+        return name;
     }
 
     /**

@@ -7,7 +7,7 @@ public class Cat extends Animal {
 
     @Override
     public String makeSound() {
-        throw new UnsupportedOperationException("TODO: implement Cat.makeSound()");
+        return "Meow";
     }
 }
 

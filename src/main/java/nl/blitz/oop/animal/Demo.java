@@ -12,7 +12,19 @@ import java.util.List;
  */
 public class Demo {
     public static void main(String[] args) {
-        throw new UnsupportedOperationException("TODO: implement Demo to exercise polymorphism over Animal list");
+
+        Dog dog = new Dog("Pongo");
+        Cat cat = new Cat("Kitek");
+        Cow cow = new Cow("Lucy");
+
+        List<Animal> animals = new ArrayList<>();
+        animals.add(dog);
+        animals.add(cat);
+        animals.add(cow);
+
+        for (Animal animal : animals) {
+            System.out.println(animal.getName() + ": " + animal.makeSound());
+        }
     }
 }
 
