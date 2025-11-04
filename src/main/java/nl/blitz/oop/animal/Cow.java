@@ -7,7 +7,8 @@ public class Cow extends Animal {
 
     @Override
     public String makeSound() {
-        throw new UnsupportedOperationException("TODO: implement Cow.makeSound()");
+        // throw new UnsupportedOperationException("TODO: implement Cow.makeSound()");
+        return "moo";
     }
 }
 
